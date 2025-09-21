@@ -9,7 +9,7 @@ import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
 import Education from "../components/Education";
-import Certificate from "../components/ui/Certificate";
+import Certificate from "../components/Certificate";
 import { Course } from '../components/Course';
 
 export const Home = () => {

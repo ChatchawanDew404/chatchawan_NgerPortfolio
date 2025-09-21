@@ -3,25 +3,25 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML",image:"./image/logo/html-5.png", level:"", category: "frontend" },
-  { name: "CSS",image:"/image/logo/css-3.png", level:"", category: "frontend" },
-  { name: "JavaScript",image:"/image/logo/js.png", level:"", category: "frontend" },
-  { name: "React",image:"/image/logo/science.png", level:"", category: "frontend" },
-  { name: "TypeScript",image:"/image/logo/typescript.png", level:"", category: "frontend" },
-  { name: "Tailwind CSS",image:"/image/logo/tailwind.png", level:"", category: "frontend" },
+  { name: "HTML",image:"/src/image/logo/html-5.png", level:"", category: "frontend" },
+  { name: "CSS",image:"/src/image/logo/css-3.png", level:"", category: "frontend" },
+  { name: "JavaScript",image:"/src/image/logo/js.png", level:"", category: "frontend" },
+  { name: "React",image:"/src/image/logo/science.png", level:"", category: "frontend" },
+  { name: "TypeScript",image:"/src/image/logo/typescript.png", level:"", category: "frontend" },
+  { name: "Tailwind CSS",image:"/src/image/logo/tailwind.png", level:"", category: "frontend" },
 
   // Backend
-  { name: "Node.js",image:"/image/logo/node-js.png", level:"", category: "backend" },
-  { name: "MySQL",image:"/image/logo/mysql.png", level:"", category: "backend" },
-  { name: "MongoDB",image:"/image/logo/icons8-mongodb-48.png", level:"", category: "backend" },
+  { name: "Node.js",image:"/src/image/logo/node-js.png", level:"", category: "backend" },
+  { name: "MySQL",image:"/src/image/logo/mysql.png", level:"", category: "backend" },
+  { name: "MongoDB",image:"/src/image/logo/icons8-mongodb-48.png", level:"", category: "backend" },
 
   // Tools
-  { name: "Git/GitHub",image:"/image/logo/git.png", level:"", category: "tools" },
-  { name: "Figma",image:"/image/logo/figma.png", level:"", category: "tools" },
-  { name: "VS Code",image:"/image/logo/logo.png", level:"", category: "tools" },
+  { name: "Git/GitHub",image:"/src/image/logo/git.png", level:"", category: "tools" },
+  { name: "Figma",image:"/src/image/logo/figma.png", level:"", category: "tools" },
+  { name: "VS Code",image:"/src/image/logo/logo.png", level:"", category: "tools" },
 
   // Tester
-  { name: "Robot Framework",image:"/image/logo/robotFramework.png", level:"", category: "tester" },
+  { name: "Robot Framework",image:"/src/image/logo/robotFramework.png", level:"", category: "tester" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools" , "tester"];
