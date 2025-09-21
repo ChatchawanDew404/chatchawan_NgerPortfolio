@@ -4,15 +4,15 @@ import { Award, X } from "lucide-react";
 const certificates = [
   {
     id: 1,
-    image: "/public/certificate/cer1.png",
+    image: "/certificate/cer1.png",
   },
   {
     id: 2,
-    image: "/public/certificate/cer2.png",
+    image: "/certificate/cer2.png",
   },
   {
     id: 3,
-    image: "/public/certificate/cer3.png",
+    image: "/certificate/cer3.png",
   },
 ];
 
