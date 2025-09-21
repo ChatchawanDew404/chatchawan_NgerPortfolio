@@ -27,10 +27,18 @@ export const AboutSection = () => {
            
 
               <a
-                href=""
+                href="/cv/chatchawanCVTH.pdf"
+                download="chatchawan_ngernthaworn_CV_th.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Download CV (TH)
+              </a>
+              <a
+                href="/cv/chatchawanthCV.pdf"
+                download="chatchawan_ngernthaworn_CV_eng.pdf"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Download CV (ENG)
               </a>
             </div>
           </div>
