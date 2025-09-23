@@ -2,6 +2,11 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
+  // Tester
+  { name: "Robot Framework",image:"/logo/robotFramework.png", level:"", category: "tester" },
+  { name: "Python",image:"/logo/python.png", level:"", category: "tester" },
+  { name: "Selenium",image:"/logo/seleniumicon.png", level:"", category: "tester" },
+
   // Frontend
   { name: "HTML",image:"/logo/html-5.png", level:"", category: "frontend" },
   { name: "CSS",image:"/logo/css-3.png", level:"", category: "frontend" },
@@ -20,8 +25,7 @@ const skills = [
   { name: "Figma",image:"/logo/figma.png", level:"", category: "tools" },
   { name: "VS Code",image:"/logo/logo.png", level:"", category: "tools" },
 
-  // Tester
-  { name: "Robot Framework",image:"/logo/robotFramework.png", level:"", category: "tester" },
+  
 ];
 
 const categories = ["all", "frontend", "backend", "tools" , "tester"];
